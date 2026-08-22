@@ -1,0 +1,32 @@
+# Build
+backend/target/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+.classpath
+.project
+.settings/
+.factorypath
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and local overrides
+.env
+application-local.yml
+backend/src/main/resources/application-local.yml
+
+# Logs
+*.log
+logs/
+
+# Maven
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
