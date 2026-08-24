@@ -1,11 +1,12 @@
 package com.ecommerce;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
+@SpringBootTest
 class EcommerceApplicationTests {
 
     @Test
-    void applicationEntryPointIsPresent() {
-        org.junit.jupiter.api.Assertions.assertNotNull(EcommerceApplication.class);
+    void contextLoads() {
     }
 }

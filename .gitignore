@@ -20,6 +20,7 @@ Thumbs.db
 
 # Secrets and local overrides
 .env
+frontend/.env
 application-local.yml
 backend/src/main/resources/application-local.yml
 
@@ -30,3 +31,4 @@ logs/
 # Maven
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
+backend/cp.txt
